@@ -11,8 +11,8 @@ variables:
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
   demorg: 'melon-cicd-rg'
-  subscription : 'Pay-As-You-Go'
-  webappname : 'melonbetawebapp'
+  subscription : 'Pay-As-You-Go (c253c165-060e-4db2-be09-ebe66a7327f9)'
+  webappname : 'Test2zoom'
   prodwebappname : 'melonbetawebapp-prod'
 
 stages:
