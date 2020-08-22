@@ -13,7 +13,7 @@ variables:
   demorg: 'dev'
   subscription : 'Pay-As-You-Go (c253c165-060e-4db2-be09-ebe66a7327f9)'
   webappname : 'Test2zoom'
-  prodwebappname : 'melonbetawebapp-prod'
+  prodwebappname : 'melonbetawebapp1-prod'
 
 stages:
 - stage: Build
