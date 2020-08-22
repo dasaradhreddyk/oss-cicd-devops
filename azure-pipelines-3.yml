@@ -11,7 +11,7 @@ variables:
   vmImageName: 'ubuntu-latest'
   demorg: 'dev'
   subscription : 'Pay-As-You-Go (c253c165-060e-4db2-be09-ebe66a7327f9)'
-  webappname : 'ZOOOMM'
+  webappname : 'melonbetawebapp11'
   prodwebappname : 'ZOOOMM-prod'
 
 stages:
@@ -29,7 +29,7 @@ stages:
       inputs:
         azureSubscription: $(subscription)
         scriptLocation: inlineScript
-        inlineScript: 'az group create --location Central US --name $(demorg)'
+        inlineScript: 'az group create --location eastus --name $(demorg)'
 
     
     - task: AzureResourceGroupDeployment@2
@@ -37,7 +37,7 @@ stages:
       inputs:
         azureSubscription: $(subscription)
         resourceGroupName: '$(demorg)'
-        location: 'Central US'
+        location: 'eastus'
         templateLocation: 'Linked artifact'
         csmFile: 'iac/webapp.json'
         csmParametersFile: 'iac/webapp.parameters.json'
