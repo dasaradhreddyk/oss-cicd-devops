@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
       "webAppName": {
-        "value": "melonbetawebapp"
+        "value": "melonbetawebapp11"
       },
       "hostingPlanName": {
         "value": "melonbetawebappplan"
       },
       "appInsightsLocation": {
-        "value": "northeurope"
+        "value": "eastus"
       },
       "sku": {
         "value": "S1"
