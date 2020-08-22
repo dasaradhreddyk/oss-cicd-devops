@@ -12,8 +12,8 @@ variables:
   vmImageName: 'ubuntu-latest'
   demorg: 'melon-cicd-rg'
   subscription : 'Pay-As-You-Go'
-  webappname : 'melonbetawebapp'
-  prodwebappname : 'melonbetawebapp-prod'
+  webappname : 'zoomer'
+  prodwebappname : 'zoomer-prod'
 
 stages:
 - stage: Build
