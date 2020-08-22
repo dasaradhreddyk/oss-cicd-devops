@@ -11,8 +11,8 @@ variables:
   vmImageName: 'ubuntu-latest'
   demorg: 'dev'
   subscription : 'Pay-As-You-Go (c253c165-060e-4db2-be09-ebe66a7327f9)'
-  webappname : 'zoomer'
-  prodwebappname : 'zoomer-prod'
+  webappname : 'ZOOOMM'
+  prodwebappname : 'ZOOOMM-prod'
 
 stages:
 - stage: Build
